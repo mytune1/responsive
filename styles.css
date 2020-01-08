@@ -1,0 +1,38 @@
+/* for div responsive by css without using any css frameword */
+
+/* Responsive design always depend on percent (%). */
+/* if you set the width in percent (%) for example div{width:100%} is will alway adjust according to the device width */
+/* Font size */
+/* device-width : 320px;480px;560px;767px;991px;1024px;1200px;1440px;1600px;1900px */
+
+
+/* css between min-width and max-width */
+
+@media screen and (min-width:device-width) and (max-width:device-width){
+    .class-name{
+        width: 100%; /* changes the value of width according to the device. What is the width of div you are set in every device.*/
+    }
+}
+
+
+/* css width min-width */
+
+@media screen and (min-width:device-width){
+    .class-name{
+        width: 100%; /* changes the value of width according to the device. What is the width of div you are set in every device.*/
+    }
+}
+
+/* css width max-width */
+
+@media screen and (max-width:device-width){
+    .class-name{
+        width: 100%; /* changes the value of width according to the device. What is the width of div you are set in every device.*/
+    }
+}
+
+/* font size responsive for all device */
+
+p{
+    font-size:100% /* it assign the value according to the device width.*/
+}
